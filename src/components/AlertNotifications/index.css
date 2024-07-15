@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.notification-inner-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.notification-type-success {
+  font-size: 22px;
+  color: #2dca73;
+}
+.success-icon {
+  margin-top: 5px;
+  align-self: flex-start;
+  color: #2dca73;
+  height: 50px;
+  width: 30px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.main-heading {
+  font-family: 'roboto';
+  font-weight: 600;
+  font-size: 32px;
+  color: #000;
+  text-align: center;
+}
+p {
+  font-family: 'roboto';
+  color: #64748b;
+}
+
+.notification-type-error {
+  font-size: 22px;
+  color: #ff0b37;
+}
+.error-icon {
+  margin-top: 5px;
+  align-self: flex-start;
+  color: #ff0b37;
+  height: 50px;
+  width: 24px;
+}
+
+.notification-type-warning {
+  font-size: 22px;
+  color: #ffb800;
+}
+.warning-icon {
+  margin-top: 5px;
+  align-self: flex-start;
+  color: #ffb800;
+  height: 50px;
+  width: 30px;
+}
+
+.notification-type-info {
+  font-size: 22px;
+  color: #0f81e0;
+}
+.info-icon {
+  margin-top: 5px;
+  align-self: flex-start;
+  color: #0f81e0;
+  height: 50px;
+  width: 30px;
+}
